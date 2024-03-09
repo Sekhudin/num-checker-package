@@ -1,4 +1,4 @@
-import { isOdd, isEven } from '../src/main';
+import { isEven, isOdd } from '../src/main';
 
 describe('isOdd test zero', () => {
   test('0 should be false', () => {
@@ -134,7 +134,7 @@ describe('isEven test positive', () => {
     expect(isEven(8)).toBe(true)
   });
 
-  
+
   test('1 should be false', () => {
     expect(isEven(1)).toBe(false)
   });

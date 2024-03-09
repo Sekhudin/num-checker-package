@@ -1,14 +1,5 @@
-# Contoh .npmignore
-
 # Ignore file konfigurasi
-.npmignore
-.eslintignore
-.eslintcache
 .babelrc
-
-# Ignore direktori build
-/build
-
-# Ignore file yang bukan bagian dari proyek
-.editorconfig
 .gitignore
+.npmignore
+jest.config.js

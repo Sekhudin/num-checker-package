@@ -1,17 +1,32 @@
 {
-  "name": "syaikhu-odd-even",
-  "version": "1.0.0",
-  "description": "lib for test",
-  "main": "src/main.js",
+  "name": "num-checker",
+  "version": "1.0.2",
+  "description": "library for check number",
+  "main": "dist/main.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "build": "babel src --out-dir dist && cp src/index.d.ts dist/",
     "test": "jest"
   },
-  "keywords": [
-    "first-lib"
+  "files": [
+    "dist/main.js",
+    "dist/index.d.ts"
   ],
+  "keywords": [
+    "odd",
+    "even",
+    "isOdd",
+    "isEven",
+    "checker"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sekhudin/num-checker-package.git"
+  },
   "author": "sekhudin",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.23.9",
     "@babel/core": "^7.24.0",
     "@babel/preset-env": "^7.24.0",
     "babel-jest": "^29.7.0",
